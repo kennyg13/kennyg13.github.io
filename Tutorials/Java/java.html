@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+	<title>Java Tutorials</title>
+	
+	<link rel="stylesheet" type="text/css" href="javastyle.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="javascript.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="Option">
+		<div class="Gallery" id="menu" style="background-color: #990033">
+			<h1>Tutorials</h1>
+			<p class="1" style="background-color: #FF9900">Java</p>
+			<a href=""><p class="2" style="background-color: #ffad33">HTML/CSS/JQuery</p></a>
+			<a href=""><p class="3" style="background-color: #ffc266">Python</p></a>
+			<a href=""><p class="4" style="background-color: #ffcc80">Android</p></a>
+			<a href=""><p class="5" style="background-color: #ffd699">Raspberry Pi</p></a>
+		</div>
+		<div class="Commission" id="menu" style="background-color: #009933">
+			<h1>Downloads</h1>
+			<p class="1" style="background-color: #33ADAD">Scripts</p>
+			<p class="2" style="background-color: #66C2C2">Resources</p>
+		</div>
+		<div class="Home" id="menu" style="background-color: #FFdb4d">
+			<a href="../../index.html"><h1>Home</h1></a>
+		</div>
+	</div>
+	<div class="trunk">
+		<div class="lessons">
+			<div class="1" id="lesson">
+				<h3>Start for Java - Syntax and Classes</h3>
+				<p>And we're off! Okay so the first thing you need to understand is how a java file looks and functions.
+				 I know it's boring but it's important and I won't take to much time on it. So a java file usually looks like
+				 this, the way the text is colored depends on what text editor you are using. To create a file from scratch just 
+				 go on your text editor and add what's below and name it Java.java, I do however suggest you download Eclipse Luna(It's free
+				 , easiest way to edit java files, allows you test them out, and automatically creates all the files you would need to create 
+				 if you were to do it alone)
+				</p>
+				<img src="Images/syntax.jpg" class="syntax"/>
+				<p>
+				This is a java class called "Java", if you were to create one on eclipse it will automatically create the basic structure
+				for you; however, if you are doing it on a text editor know that you need to have the name matching the class. Notice how the
+				Java.java file has the class called Java and that class alone, no other classes. Where it says <strong>public static void main(String[] args)</strong>
+				 don't really pay attention to right now just acknowledge that this is a method called main. When you compile your class to a .jar file
+				  it will look for this method to run. When you create a project in eclipse the folders will look like this and they will all be in the
+				  folder with the name of the project you created. Your Java.java class will be in the <strong>src</strong> folder
+				</p>
+				<img src="Images/save.jpg" class="syntax"/>
+			</div>
+			<div class="2" id="lesson">
+				<h3>Lesson 1 - Declaring Variables and Methods</h3>
+				<img src="Images/variables.jpg" class="syntax"/>
+				<p>Now to actually learning to program, there are three variables in this Java class, 
+				these three are the basics, which are basically
+				objects that hold certain information. Just know to close a variable you need to end it with a <strong>;</strong>
+				So the <strong>int a = 1;</strong> is holding the whole number 1 and 
+				it's type is integer(Whole Number). <br><br>
+				<strong>String b = "Kenneth"</strong> is a String variable which holds word(s), declared by using its type <strong>String</strong>
+				naming the variable whatever you like as long as its not a number, in this case <strong>b</strong> and hold the string <strong>Kenneth</strong>
+				be sure though to have the quotes around the word you want your variable to hold or else it won't work and you'll get an error.
+				<br><br>
+				<strong>boolean c = false;</strong> is a boolean variable which holds either <strong>true</strong> or <strong>false</strong>. This variable
+				is called <strong>c</strong> and holds <strong>false</strong>
+				<br><br>Now I'm going to show you how to create a method that will help things go a lot quicker. A method is something that 
+				holds functionallity(Code that does something), you can then use that method to manipulate variables or do certain things
+				now the method I created is <strong>public static void print(Object a)</strong> and the opening and closing brackets 
+				contain the functionallity that allows me do something, without them you'll get an error.
+				</p>
+				<img src="Images/print.jpg" class="syntax"/>
+				<p>Now the part where it says <strong>print(Object a)</strong> means that when I tell
+				the computer to do whatever is inside the method <strong>print</strong> I can give it a variable to manipulate.
+				 That variable is type Object(Any variable) and is called <strong>a</strong>. How do you tell the program to run
+				 the method <strong>print</strong>? By calling it and all you have to do to call a method is state it's name and
+				 <strong>pass</strong> in the variable it asks for like on line 6 in the Java.java class.  
+				</p>
+				<img src="Images/call.jpg" class="syntax"/>
+				<p>I am calling <strong>print(Object a)</strong> and passing in the String <strong>Kenneth</strong>
+				 what this allows me to do is use the variable in the method print, where as I couldn't before. Now that I have passed
+				 the variable <strong>b</strong> into <strong>print</strong> it is no longer known as b but as <strong>a</strong> because
+				 that is the name of the variable in the <strong>parameter</strong> of the method print(Object <strong>a</strong>). When
+				 I manipulate the variable <strong>a</strong> it doesn't change the String <strong>b</strong> because right now
+				  there is now way for me to save it back to the <strong>main</strong> method.
+				</p>
+			</div>
+			<div class="3" id="lesson">
+				
+			</div>
+			<div class="next" id="button">
+				<p>Next</p>
+			</div>
+			<div class="before" id="button">
+				<p>Back</p>
+			</div>
+		</div>
+		<div class="tutorials">
+			<h1>Tutorials:</h1>
+			<div class="1" id="tutorial">
+				<div class="icon">
+					<img src="Images/Object.jpg"/>
+					<p>Creating Objects</p>
+				</div>
+			</div>
+			<div class="2" id="tutorial">
+				<div class="icon">
+					<img src="Images/swing.jpg"/>
+					<p>JOptionPane(GUI #1)</p>
+				</div>
+			</div>
+			<div class="3" id="tutorial">
+				<div class="icon">
+					<img src="Images/swing.jpg"/>
+					<p>Swing(GUI #2)</p>
+				</div>
+			</div>
+			<div class="4" id="tutorial">
+				<div class="icon">
+					<img src="Images/swing.jpg"/>
+					<p>Checkers</p>
+				</div>
+			</div>
+			<div class="5" id="tutorial">
+				<div class="icon">
+					<img src="Images/swing.jpg"/>
+					<p>Games</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

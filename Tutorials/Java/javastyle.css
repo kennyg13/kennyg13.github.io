@@ -1,0 +1,92 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #C8C8C8;
+	overflow-x: hidden;
+}
+.Home a h1{
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+#menu{
+	color: white;
+	width: 33.33%;
+	text-align: center;
+	float: left;
+	z-index: 0;
+}
+#menu h1{
+	font-size: small;
+	padding: 10px 0 10px 0;
+	margin: 8px 0 8px 0;
+}
+#menu:hover{
+	cursor: pointer;
+}
+#menu p{
+	position: absolute;
+	width: 33.33%;
+	z-index: -1;
+	top: 0;
+	margin: 0;
+	padding: 18px 0 18px 0;
+	color:white;
+	font-weight: bold;
+}
+.trunk{
+	position: absolute;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	background: white;
+	border-radius: 10px;
+	border: 1px solid #C0C0C0;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	z-index: -2
+}
+.lessons{
+	margin: 0 5% 100px 5%;
+}
+#button{
+	width: 50px;
+	height: fit;
+	padding: 5px 10px 5px 10px;
+	background-color: #ffdb4d;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	border-radius: 5px;
+	text-align: center;
+}
+.next{
+	float: right;
+}
+.before{
+	float: left;
+}
+#button:hover{
+	cursor: pointer;
+}
+.tutorials{
+	margin: 0 5% 0 5%;
+	border-top: 3px solid grey;
+	display: none;
+}
+.icon{
+	float: left;
+	height: fit;
+	margin: 20px 12.5% 20px 12.5%;
+	padding: 10px 10px 20px 10px;
+	text-align: center;
+	border-radius: 2px;
+	color: white;
+}
+.icon:hover{
+	cursor: pointer;
+	background-color: #c8c8c8;
+}
+.icon img{
+	width: 90%;
+	margin: 5% 5% 5% 5%; 
+}
