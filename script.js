@@ -1,6 +1,4 @@
 $(document).ready(function(){
-$("bFooter").css("bottom", 0);
-$("bFooter").hide();
 var hoverMenu = function(){
 	var menu = $(".option div").height();
 	var temp = menu;
@@ -52,7 +50,6 @@ var extraCrap = function(){
 	
 	$(".Comments").css("margin-top", $(".body").height()/2 - $(".Comments").height()/2);
 	
-	$("#bFooter").show();
 	$("#bFooter").css("top", getDocHeight());
 	$("#bFooter").css("width", $("#bFooter").width()-10);
 	
