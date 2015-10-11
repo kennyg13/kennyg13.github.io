@@ -57,6 +57,8 @@ var extraCrap = function(){
 	$("#bFooter").css("width", $("#bFooter").width()-10);
 	
 	$(".bFooter_part").css("left", $(".bFooter").width() - $(".bFooter_part").width());
+	
+	alert($("html").width() + "," + $("html").height());
 }
 function getDocHeight(){
 	var max = $(".body").outerHeight(true) + 1;
