@@ -52,7 +52,7 @@ var extraCrap = function(){
 	$(".Comments").css("margin-top", ($(".body").height() - $(".bHeader").height())/2);
 	
 	var footer = $("#bFooter").height();
-	$("#bFooter").css("bottom", 0 - footer));
+	$("#bFooter").css("bottom", 0 - footer);
 	$("#bFooter").css("width", $("#bFooter").width()-10);
 }
 function Fade(){
