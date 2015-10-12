@@ -128,8 +128,8 @@ a, p, h1, h3 {
 #bFooter{
 	width: 90%;
 	margin: 0 5% 0 5%;
-	background-color: #33ADAD;
 	position: absolute;
+	background-color: #33ADAD;
 	padding: 100px 0 100px 0;
 	border-right: 5px solid #FFDB4D; 
 	border-left: 5px solid #990033;

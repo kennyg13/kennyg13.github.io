@@ -48,10 +48,12 @@ var extraCrap = function(){
 	$(".source").css("height", $(".source").height()/2);
 	$(".title").css("top", 0-$(".title").height());
 	
-	$("#bFooter").css("top", $(".body").outerHeight(true));
-	$("#bFooter").css("width", $("#bFooter").width()-10);
+	var comment_height = $(".Comments").height()/2;
+	$(".Comments").css("margin-top", ($(".body").height() - $(".bHeader").height())/2);
 	
-	$(".bFooter_part").css("left", $(".bFooter").width() - $(".bFooter_part").width());
+	var footer = $("#bFooter").height();
+	$("#bFooter").css("bottom", 0 - footer));
+	$("#bFooter").css("width", $("#bFooter").width()-10);
 }
 function Fade(){
 		$(".source").hover(
