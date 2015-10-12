@@ -50,14 +50,10 @@ var extraCrap = function(){
 	
 	$(".Comments").css("margin-top", $(".body").height()/2 - $(".Comments").height()/2);
 	
-	$("#bFooter").css("top", getDocHeight());
+	$("#bFooter").css("top", $(".body").outerHeight(true));
 	$("#bFooter").css("width", $("#bFooter").width()-10);
 	
 	$(".bFooter_part").css("left", $(".bFooter").width() - $(".bFooter_part").width());
-}
-function getDocHeight(){
-	var max = $(".body").height();
-    return max;
 }
 function Fade(){
 		$(".source").hover(
