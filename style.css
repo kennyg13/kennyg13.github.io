@@ -125,30 +125,6 @@ a, p, h1, h3 {
 	width: 100%;
 	margin: 0 0 20px 0;
 }
-#bFooter{
-	width: 90%;
-	margin: 0 5% 0 5%;
-	position: absolute;
-	background-color: #33ADAD;
-	padding: 100px 0 100px 0;
-	border-right: 5px solid #FFDB4D; 
-	border-left: 5px solid #990033;
-	border-bottom: 5px solid #009933;
-}
-#bFooter_part{
-	position: absolute;
-	margin: auto;
-	height: 50px;
-	width: fit;
-	top: 0; left: 0; bottom: 0; right: 0;
-}
-#bFooter_part h3{
-	float: left;
-	padding: 0 25px 0 25px;
-	color: white;
-	font-size: large;
-	font-weight: bold;
-}
 .resources{
 	display: none;
 }
