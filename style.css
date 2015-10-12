@@ -127,6 +127,7 @@ a, p, h1, h3 {
 	border-right: 5px solid #FFDB4D; 
 	border-left: 5px solid #990033;
 	border-bottom: 5px solid #009933;
+	display: none;
 }
 #bFooter_part{
 	position: absolute;
@@ -134,7 +135,6 @@ a, p, h1, h3 {
 	height: 50px;
 	width: fit;
 	top: 0; left: 0; bottom: 0; right: 0;
-	display: none;
 }
 #bFooter_part h3{
 	float: left;
