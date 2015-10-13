@@ -29,6 +29,9 @@ a, p, h1, h3 {
 #menu:hover{
 	cursor: pointer;
 }
+.option{
+	margin-bottom: 400px;
+}
 .body{
 	width: 90%;
 	margin: 0 5% 0 5%;
@@ -50,7 +53,6 @@ a, p, h1, h3 {
 	width: 25%;
 }
 .Comments{
-	margin-bottom: 400px;
 	height: 200px;
 	width: 75%;
 	margin: auto;
