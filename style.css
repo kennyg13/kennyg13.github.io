@@ -41,7 +41,6 @@ a, p, h1, h3 {
 }
 .body{
 	width: 90%;
-	position: absolute;
 	margin: 0 5% 0 5%;
 	background: white;
 	padding-bottom: 10px;
@@ -143,4 +142,8 @@ a, p, h1, h3 {
 }
 .Hello{
 	font-size: 75px;
+}
+.bFooter{
+	width: 100%;
+	background-color: #34ADAD;
 }
