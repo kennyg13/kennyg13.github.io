@@ -37,7 +37,7 @@ var extraCrap = function(){
 	var height = $("#menu").height();
 	var width = $(".body").width();
 	var fontsize = $("#bFooter_part").height();
-	$(".body").css("margin-top", height*2);
+	$(".body").css("margin-top", height*4);
 	$(".miniBio img").css("width", width/4);
 	
 	var add = $(".Comments").css("margin-top");
