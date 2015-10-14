@@ -61,11 +61,8 @@ a, p, h1, h3 {
 	width: 25%;
 }
 .Comments{
-	height: 200px;
 	width: 75%;
-	margin: auto;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 13.5%;
+	margin-left: 13.5%;
 }
 .Comments p , .Comments h3 {
 	width: 75%;
