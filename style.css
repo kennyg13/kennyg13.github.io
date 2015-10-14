@@ -122,28 +122,13 @@ a, p, h1, h3 {
 	width: 100%;
 	margin: 0 0 20px 0;
 }
-.resources{
-	display: none;
-}
-.downloads_link{
-	font-size: large;
-	color: white;
-	background: #33ADAD;
-	width: 100px;
-	padding: 5px;
-	font-weight: bold;
-	border-radius: 3px;
-	border-bottom: 5px solid #247979;
-}
-.downloads_link:hover{
-	cursor: pointer;
-}
 .Hello{
 	font-size: 75px;
 }
 .bFooter{
 	width: 100%;
 	background-color: #34ADAD;
-	position: relative;
+	position: absolute;
 	bottom: 0;
+	color: white;
 }
