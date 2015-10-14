@@ -14,6 +14,7 @@ a, p, h1, h3 {
 	font-family: Century Gothic, sans-serif;
 }
 #menu{
+	position: absolute;
 	color: white;
 	width: 33.33%;
 	text-align: center;
