@@ -71,7 +71,7 @@ a, p, h1, h3 {
 	margin-left: 2.5%;
 	position: absolute;
 	height: 200px;
-	top: 0;
+	top: 100px;
 }
 .Comments p , .Comments h3 {
 	width: 75%;
@@ -176,6 +176,5 @@ a, p, h1, h3 {
 	background: white;
 }
 .show .img{
-	float: left;
 	height: 175px;
 }
