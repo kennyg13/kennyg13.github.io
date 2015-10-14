@@ -188,6 +188,7 @@ a, p, h1, h3 {
 .projects .Img{
 	height: 150px;
 	border-radius: 50%;
+	margin: 0 10% 0 10%;
 }
 .proj_title{
 	text-align: center;
