@@ -42,7 +42,7 @@ a, p, h1, h3 {
 }
 .body{
 	width: 90%;
-	margin: 0 5% 0 5%;
+	margin: 200px 5% 0 5%;
 	background: white;
 	border: 1px solid #C0C0C0;
 	z-index: -2;
