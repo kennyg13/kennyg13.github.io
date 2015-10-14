@@ -14,7 +14,6 @@ a, p, h1, h3 {
 	font-family: Century Gothic, sans-serif;
 }
 #menu{
-	position: absolute;
 	color: white;
 	width: 33.33%;
 	text-align: center;
@@ -30,9 +29,6 @@ a, p, h1, h3 {
 #menu:hover{
 	cursor: pointer;
 }
-<<<<<<< HEAD
-.option{
-=======
 #option{
 	position: absolute;
 	width: 33.33%;
@@ -42,7 +38,6 @@ a, p, h1, h3 {
 	padding: 18px 0 18px 0;
 	color:white;
 	font-weight: bold;
->>>>>>> parent of a649382... change
 	margin-bottom: 400px;
 }
 .body{
