@@ -21,6 +21,7 @@ a, p, h1, h3 {
 	z-index: 0;
 	text-shadow: 2px 2px 5px grey;
 	position: relative;
+	margin-bottom: 52px;
 }
 #menu h1{
 	font-size: small;
@@ -39,6 +40,7 @@ a, p, h1, h3 {
 	padding: 18px 0 18px 0;
 	color:white;
 	font-weight: bold;
+	font-size: small;
 	margin-bottom: 400px;
 }
 .body{
@@ -153,5 +155,5 @@ a, p, h1, h3 {
 	font-size: 16px;
 	
 	position: absolute;
-	bottom: -50px;
+	bottom: 0px;
 }
