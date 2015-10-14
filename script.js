@@ -40,9 +40,7 @@ var extraCrap = function(){
 	$(".title").css("width", $(".thumbnails").width());
 	$(".source").css("height", $(".source").height()/2);
 	$(".title").css("top", 0-$(".title").height());
-	
-	var comment_height = $(".Comments").height()/2;
-	$(".Comments").css("margin-top", ($(".body").height())/2 - comment_height);
+
 }
 hoverMenu();
 extraCrap();
