@@ -34,36 +34,16 @@ var hoverMenu = function(){
 	);
 }
 var extraCrap = function(){
-	var height = $("#menu").height();
-	var width = $(".body").width();
-	$(".miniBio img").css("width", width/4);
+	$(".miniBio img").css("width", $(".body").width()/4);
 	
 	$(".title").css("height", $(".thumbnails").height());
 	$(".title").css("width", $(".thumbnails").width());
 	$(".source").css("height", $(".source").height()/2);
 	$(".title").css("top", 0-$(".title").height());
+	
+	var comment_height = $(".Comments").height()/2;
+	$(".Comments").css("margin-top", ($(".body").height())/2 - comment_height);
 }
-function Fade(){
-		$(".source").hover(
-			function(){
-				$(this).children(".title").animate({
-					"opacity": 1,
-				},{
-					queue: false,
-					duration: 250
-				});
-			},function(){
-				$(this).children(".title").animate({
-					"opacity": 0,
-				},{
-					queue: false,
-					duration: 250
-				});
-			}
-		
-		);
-}
-Fade();
 hoverMenu();
 extraCrap();
 });
