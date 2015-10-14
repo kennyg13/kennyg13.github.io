@@ -152,7 +152,7 @@ a, p, h1, h3 {
 }
 .bFooter{
 	width: 100%;
-	background-color: #3EAD3E;
+	background-color: #34ADAD;
 	color: white;
 	height: auto;
 	padding: 10px 0 10px 0;
@@ -162,4 +162,11 @@ a, p, h1, h3 {
 	
 	position: absolute;
 	bottom: 0px;
+}
+.footer-title{
+	text-align:center;
+	color: white;
+}
+.show{
+	height: 200px;
 }
