@@ -42,7 +42,7 @@ a, p, h1, h3 {
 }
 .body{
 	width: 90%;
-	margin: 0 5% 0 5%;
+	margin: 0 5% -104px 5%;
 	background: white;
 	padding-bottom: 10px;
 	border: 1px solid #C0C0C0;
@@ -61,7 +61,7 @@ a, p, h1, h3 {
 	width: 25%;
 }
 .Comments{
-	width: 75%;
+	width: 100%;
 	margin: auto;
 	margin-left: 2.5%;
 }
