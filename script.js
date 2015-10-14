@@ -40,6 +40,8 @@ var extraCrap = function(){
 	$(".title").css("width", $(".thumbnails").width());
 	$(".source").css("height", $(".source").height()/2);
 	$(".title").css("top", 0-$(".title").height());
+	
+	$(".Comments").css("margin-bottom", $(".miniBio img").height()));
 
 }
 hoverMenu();
