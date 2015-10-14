@@ -144,11 +144,9 @@ a, p, h1, h3 {
 .bFooter{
 	width: 100%;
 	background-color: #34ADAD;
-<<<<<<< HEAD
 	color: white;
 	padding: 10px 0 10px 0;
-=======
 	position: relative;
 	bottom: 0;
->>>>>>> parent of 006aeb5... Changes
+	color: white;
 }
