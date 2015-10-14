@@ -64,6 +64,7 @@ a, p, h1, h3 {
 	width: 100%;
 	margin: auto;
 	margin-left: 2.5%;
+	margin-bottom: 25%;
 }
 .Comments p , .Comments h3 {
 	width: 75%;
@@ -130,4 +131,5 @@ a, p, h1, h3 {
 	width: 100%;
 	background-color: #34ADAD;
 	color: white;
+	padding: 10px 0 10px 0;
 }
