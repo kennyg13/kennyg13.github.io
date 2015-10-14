@@ -9,6 +9,9 @@ body{
 font{
 	text-shadow: 1px 1px 1px grey;
 }
+img:hover{
+	cursor:pointer;
+}
 a, p, h1, h3 {
 	text-decoration: none;
 	font-family: Century Gothic, sans-serif;
