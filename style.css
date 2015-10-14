@@ -52,7 +52,7 @@ a, p, h1, h3 {
 	z-index: -2;
 	overflow: hidden;
 	position: relative;
-	padding-bottom: 300px;
+	padding-bottom: 600px;
 }
 .miniBio img{
 	height: auto;
@@ -169,12 +169,29 @@ a, p, h1, h3 {
 	color: #34ADAD;
 	margin: 0;
 	padding: 20px 0 20px 0;
+	font-size: 35px
 }
 .show{
 	height: 300px;
 	width: 100%;
 	background: white;
+	padding-bottom:300px;
 }
 .show .img{
 	height: 175px;
+}
+.projects{
+	width: 100%;
+	height: 300px;
+	background-color: #34ADAD;
+	color: white;
+}
+.projects .Img{
+	height: 1750px
+}
+.pro_title{
+	text-align: center;
+	margin: 0;
+	padding: 20px 0 20px 0;
+	font-size: 35px;
 }
