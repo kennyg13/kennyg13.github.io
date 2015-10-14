@@ -51,6 +51,7 @@ a, p, h1, h3 {
 	z-index: -2;
 	overflow-x: hidden;
 	position: relative;
+	padding-bottom: 50px;
 }
 .miniBio img{
 	height: auto;
@@ -150,12 +151,13 @@ a, p, h1, h3 {
 }
 .bFooter{
 	width: 100%;
-	background-color: #34ADAD;
+	background-color: #3EAD3E;
 	color: white;
 	height: auto;
 	padding: 10px 0 10px 0;
 	height: 50px;
 	font-size: 16px;
+	border-bottom: 5px solid #C8C8C8;
 	
 	position: absolute;
 	bottom: 0px;
