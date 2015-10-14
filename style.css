@@ -152,7 +152,7 @@ a, p, h1, h3 {
 }
 .bFooter{
 	width: 100%;
-	background-color: #34ADAD;
+	background-color: #3EAF34;
 	color: white;
 	height: auto;
 	padding: 10px 0 10px 0;
@@ -171,7 +171,7 @@ a, p, h1, h3 {
 	padding: 20px 0 20px 0;
 }
 .show{
-	height: 250px;
+	height: 300px;
 	width: 100%;
 	background: white;
 }
