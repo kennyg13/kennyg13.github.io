@@ -145,6 +145,7 @@ a, p, h1, h3 {
 	width: 100%;
 	background-color: #34ADAD;
 	color: white;
+	height: auto;
 	padding: 10px 0 10px 0;
 	position: absolute;
 	bottom: 0;
